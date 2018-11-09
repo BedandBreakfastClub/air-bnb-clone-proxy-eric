@@ -4,10 +4,10 @@
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/BedandBreakfastClub/airbnb-clone-photo-module.git
+  - https://github.com/BedandBreakfastClub/airbnb-clone-booking-module.git
+  - https://github.com/BedandBreakfastClub/airbnb-clone-similar-listings-module.git
+  - https://github.com/BedandBreakfastClub/airbnb-clone-reviews-module.git
 
 ## Table of Contents
 
@@ -33,7 +33,6 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 From within the root directory:
 
 ```sh
-npm install -g webpack
 npm install
 ```
 
