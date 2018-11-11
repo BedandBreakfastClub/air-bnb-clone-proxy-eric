@@ -10,15 +10,31 @@
   href="https://www.airbnb.com/favicon.ico">
   <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-  <script src="http://localhost:3001/bundle.js"></script>
-  <script src="http://localhost:3002/bundle.js"></script>
-  <script src="http://localhost:3003/dist/bundle.js"></script>
-  <script src="http://localhost:3004/bundle.js"></script>
+  <script src="http://reviews-env-1.zha7ejydzv.us-west-1.elasticbeanstalk.com/bundle.js"></script>
+  <script src="http://13.57.190.62/bundle.js"></script>
+  <script src="http://54.193.61.151:3003/dist/bundle.js"></script>
+  <script src="http://34.220.178.216/bundle.js"></script>
+  <style>
+    .flex-container {
+      display: flex;
+      align-items: stretch;
+    }
+    .center-page {
+      max-width: 1080px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      width: auto !important;
+      padding-right: 24px !important;
+      padding-left: 24px !important;
+    }
+  </style>
 </head>
 <body>
   <div id="photo-module"></div>
-  <div id="bookings-module"></div>
-  <div id="reviews-module"></div>
+  <div class="flex-container center-page">
+    <div style="flex-grow: 3" id="reviews-module"></div>
+    <div style="flex-grow: 1" id="bookings-module"></div>
+  </div>
   <div id="similar-listings-module"></div>
   <script>
     ReactDOM.render(React.createElement(PhotoModule), document.getElementById("photo-module"));
